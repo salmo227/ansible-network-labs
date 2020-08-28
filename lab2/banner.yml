@@ -5,7 +5,22 @@
   gather_facts: no
 
   vars:
-    banner_message: Sirius Immersion Days are Super Fun and Cool!!!!
+    banner_message: "LLL                     AAAAAA         BBBBBBBBBB      !!!
+LLL                     AAAAAA         BBBBBBBBBBBBB   !!!
+LLL                    AAA  AAA        BBB        BBB  !!!
+LLL                    AAA  AAA        BBB        BBB  !!!
+LLL                   AAA    AAA       BBB        BBB  !!!
+LLL                   AAA    AAA       BBB       BBB   !!!
+LLL                  AAA      AAA      BBB      BBB    !!!
+LLL                  AAA      AAA      BBBBBBBBBBBB    !!!
+LLL                 AAAAAAAAAAAAAA     BBBBBBBBBBBB    !!!
+LLL                 AAAAAAAAAAAAAA     BBB       BBB   !!!
+LLL                AAA          AAA    BBB        BBB  !!!
+LLL                AAA          AAA    BBB        BBB  !!!
+LLL               AAA            AAA   BBB        BBB  !!!
+LLL               AAA            AAA   BBB       BBB   !!!
+LLLLLLLLLLLLLLL  AAA              AAA  BBBBBBBBBBBB
+LLLLLLLLLLLLLLL  AAA              AAA  BBBBBBBBBB      !!!"
 
   tasks:
   - name: "Update banner message to '{{ banner_message }}'"
