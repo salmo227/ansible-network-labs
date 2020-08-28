@@ -5,22 +5,7 @@
   gather_facts: no
 
   vars:
-    banner_message: "LLL                     AAAAAA         BBBBBBBBBB      !!!
-LLL                     AAAAAA         BBBBBBBBBBBBB   !!!
-LLL                    AAA  AAA        BBB        BBB  !!!
-LLL                    AAA  AAA        BBB        BBB  !!!
-LLL                   AAA    AAA       BBB        BBB  !!!
-LLL                   AAA    AAA       BBB       BBB   !!!
-LLL                  AAA      AAA      BBB      BBB    !!!
-LLL                  AAA      AAA      BBBBBBBBBBBB    !!!
-LLL                 AAAAAAAAAAAAAA     BBBBBBBBBBBB    !!!
-LLL                 AAAAAAAAAAAAAA     BBB       BBB   !!!
-LLL                AAA          AAA    BBB        BBB  !!!
-LLL                AAA          AAA    BBB        BBB  !!!
-LLL               AAA            AAA   BBB        BBB  !!!
-LLL               AAA            AAA   BBB       BBB   !!!
-LLLLLLLLLLLLLLL  AAA              AAA  BBBBBBBBBBBB
-LLLLLLLLLLLLLLL  AAA              AAA  BBBBBBBBBB      !!!"
+    banner_message: RUN AWAY RUN AWAY   SCARY RABBIT
 
   tasks:
   - name: "Update banner message to '{{ banner_message }}'"
