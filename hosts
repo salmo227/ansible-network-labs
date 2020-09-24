@@ -1,6 +1,4 @@
 [all:vars]
-ansible_user=r607355
-ansible_pass=Summer#333
 ansible_port=22
 
 [routers:children]
