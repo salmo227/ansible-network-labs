@@ -1,5 +1,6 @@
 [all:vars]
 ansible_user=r607355
+ansible_password=Summer#333
 ansible_port=22
 
 [routers:children]
@@ -7,6 +8,8 @@ cisco
 
 [cisco]
 or0506lr02 ansible_host=10.26.182.6
+or0506lr01 ansible_host=10.26.182.254
+or1201mr01-lab ansible_host=10.26.182.44
 
 [cisco:vars]
 ansible_network_os=ios
