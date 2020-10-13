@@ -1,0 +1,15 @@
+[all:vars]
+ansible_user=r607355
+ansible_password=Summer#333
+ansible_port=22
+
+[nxos_sw:children]
+cisco
+
+[cisco]
+or0506ls13 ansible_host=10.26.182.57
+or0506lr01 ansible_host=10.26.182.28
+
+[cisco:vars]
+ansible_network_os=nxos
+ansible_connection=network_cli
